@@ -104,14 +104,14 @@
       <file leaf-file-name="activity_login.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/4mail/src/main/res/layout/activity_login.xml">
           <provider editor-type-id="text-editor">
-            <state line="101" column="0" selection-start="4332" selection-end="4332" vertical-scroll-proportion="0.0" vertical-offset="1012" max-vertical-offset="1665">
+            <state line="66" column="44" selection-start="2774" selection-end="2774" vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="1680">
               <folding>
                 <element signature="e#1049#1084#0" expanded="true" />
-                <element signature="e#2108#2116#0" expanded="true" />
-                <element signature="e#2676#2698#0" expanded="true" />
-                <element signature="e#3102#3127#0" expanded="true" />
-                <element signature="e#3216#3246#0" expanded="true" />
-                <element signature="e#4045#4078#0" expanded="true" />
+                <element signature="e#2485#2488#0" expanded="true" />
+                <element signature="e#2579#2593#0" expanded="true" />
+                <element signature="e#3101#3126#0" expanded="true" />
+                <element signature="e#3215#3245#0" expanded="true" />
+                <element signature="e#4020#4034#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -621,14 +621,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/4mail/src/main/res/layout/activity_login.xml">
       <provider editor-type-id="text-editor">
-        <state line="101" column="0" selection-start="4332" selection-end="4332" vertical-scroll-proportion="0.0" vertical-offset="1012" max-vertical-offset="1665">
+        <state line="66" column="44" selection-start="2774" selection-end="2774" vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="1680">
           <folding>
             <element signature="e#1049#1084#0" expanded="true" />
-            <element signature="e#2108#2116#0" expanded="true" />
-            <element signature="e#2676#2698#0" expanded="true" />
-            <element signature="e#3102#3127#0" expanded="true" />
-            <element signature="e#3216#3246#0" expanded="true" />
-            <element signature="e#4045#4078#0" expanded="true" />
+            <element signature="e#2485#2488#0" expanded="true" />
+            <element signature="e#2579#2593#0" expanded="true" />
+            <element signature="e#3101#3126#0" expanded="true" />
+            <element signature="e#3215#3245#0" expanded="true" />
+            <element signature="e#4020#4034#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -34,9 +34,21 @@
                     style="@style/LoginFormContainer"
                     android:orientation="vertical"
                     android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center">
 
+
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                    <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/progressBar"
+                            android:layout_column="0"/>
+                </TableRow>
 
                 <TableRow
                         android:layout_width="fill_parent"
@@ -46,9 +58,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="Medium Text"
+                        android:text="@string/welcome_text"
                         android:id="@id/welcome_text"
-                        android:layout_gravity="center"/>
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical|top"
+                        android:fontFamily="@android:string/search_go"/>
 
                 </TableRow>
                 <TableRow
@@ -79,27 +93,59 @@
                 android:imeOptions="actionUnspecified"
                     />
 </TableRow>
-<TableRow android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="New Button"
-                    android:id="@+id/button"
-                    android:layout_gravity="left|center_vertical"
-                    android:clickable="true"
-                    android:capitalize="characters"/>
-            <Button android:id="@+id/sign_in_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/action_sign_in_register"
-                android:paddingLeft="32dp"
-                android:paddingRight="32dp"
-                android:layout_gravity="center_vertical|right"
-                android:clickable="true"
-                android:capitalize="characters"/>
-</TableRow>
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                    <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New CheckBox"
+                            android:id="@+id/checkBox"
+                            android:layout_column="0"/>
+                </TableRow>
+
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                    <TableRow android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_column="1">
+
+                                    <Button
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:text="@string/newid"
+                                        android:id="@+id/button"
+                                        android:layout_gravity="left|center_vertical"
+                                        android:clickable="true"
+                                        android:capitalize="characters"
+                                        android:layout_column="2"
+                                        android:ellipsize="start"
+                                        android:enabled="true"
+                                        android:focusable="true"
+                                        android:width="150dp"
+                                        android:layout_span="2"/>
+
+                        <Button android:id="@+id/sign_in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="@string/action_sign_in_register"
+                            android:layout_gravity="center_vertical|right"
+                            android:clickable="true"
+                            android:capitalize="characters"
+                            android:layout_column="5"
+                            android:ellipsize="middle"
+                            android:enabled="true"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center_vertical"
+                            android:width="150dp"/>
+                    </TableRow>
+                </TableRow>
+
             </TableLayout>
 
     </ScrollView>

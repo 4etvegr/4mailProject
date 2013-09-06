@@ -2,5 +2,5 @@
     <string name="app_name">4mail</string>
     <string name="welcome_text">Пожалуйста введите учетные данные</string>
     <string name="newid">Новый пользователь</string>
-    <string name="action_sign_in_register">Войти</string>
+    <string name="sign_in">Войти</string>
 </resources>

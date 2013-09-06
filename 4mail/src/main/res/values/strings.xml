@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">4mail</string>
+    <string name="welcome_text">Добро пожаловать! Пожалуйста введите учетные данные:</string>
+</resources>
